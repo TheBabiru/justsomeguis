@@ -6,12 +6,12 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
-local Bunker = Instance.new("TextButton")
+local Bunker&Ship = Instance.new("TextButton")
 local OmniCity = Instance.new("TextButton")
 local Forest = Instance.new("TextButton")
 local Temple = Instance.new("TextButton")
 local SpaceStation = Instance.new("TextButton")
-local Junkhard = Instance.new("TextButton")
+local Junkyard = Instance.new("TextButton")
 
 --Properties:
 
@@ -34,18 +34,18 @@ Title.Text = "Ben 10 Universal Ensemble Teleport GUI | Made by Babiru"
 Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title.TextSize = 14.000
 
-Bunker.Name = "Bunker"
-Bunker.Parent = Main
-Bunker.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
-Bunker.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Bunker.Position = UDim2.new(0, 0, 0.448753506, 0)
-Bunker.Size = UDim2.new(0, 200, 0, 50)
-Bunker.Font = Enum.Font.SciFi
-Bunker.Text = "Bunker"
-Bunker.TextColor3 = Color3.fromRGB(0, 0, 0)
-Bunker.TextSize = 14.000
-Bunker.MouseButton1Down:connect(function()
-	Scripthere
+Bunker&Ship.Name = "Bunker&Ship"
+Bunker&Ship.Parent = Main
+Bunker&Ship.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Bunker&Ship.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Bunker&Ship.Position = UDim2.new(0, 0, 0.448753506, 0)
+Bunker&Ship.Size = UDim2.new(0, 200, 0, 50)
+Bunker&Ship.Font = Enum.Font.SciFi
+Bunker&Ship.Text = "Bunker&Ship"
+Bunker&Ship.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bunker&Ship.TextSize = 14.000
+Bunker&Ship.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(592.218506, 868.113342, 2970.13086)
 end)
 
 OmniCity.Name = "OmniCity"
@@ -59,7 +59,7 @@ OmniCity.Text = "Omni City"
 OmniCity.TextColor3 = Color3.fromRGB(0, 0, 0)
 OmniCity.TextSize = 14.000
 OmniCity.MouseButton1Down:connect(function()
-	Scripthere
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-921.588196, 1023.06903, 1110.1499)
 end)
 
 Forest.Name = "Forest"
@@ -73,7 +73,7 @@ Forest.Text = "Forest"
 Forest.TextColor3 = Color3.fromRGB(0, 0, 0)
 Forest.TextSize = 14.000
 Forest.MouseButton1Down:connect(function()
-	Scripthere
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1423.79602, 1217.44214, 4826.99219)
 end)
 
 Temple.Name = "Temple"
@@ -87,7 +87,7 @@ Temple.Text = "Temple"
 Temple.TextColor3 = Color3.fromRGB(0, 0, 0)
 Temple.TextSize = 14.000
 Temple.MouseButton1Down:connect(function()
-	Scripthere
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-671.368225, 285.55191, -2320.02173)
 end)
 
 SpaceStation.Name = "SpaceStation"
@@ -101,19 +101,19 @@ SpaceStation.Text = "Space Station"
 SpaceStation.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpaceStation.TextSize = 14.000
 SpaceStation.MouseButton1Down:connect(function()
-	Scripthere
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2298.74414, 27922.3379, -6550.52393)
 end)
 
-Junkhard.Name = "Junkhard"
-Junkhard.Parent = Main
-Junkhard.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
-Junkhard.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Junkhard.Position = UDim2.new(0, 0, 0.171745151, 0)
-Junkhard.Size = UDim2.new(0, 200, 0, 50)
-Junkhard.Font = Enum.Font.SciFi
-Junkhard.Text = "Junkhard"
-Junkhard.TextColor3 = Color3.fromRGB(0, 0, 0)
-Junkhard.TextSize = 14.000
-Junkhard.MouseButton1Down:connect(function()
-	Scripthere
+Junkyard.Name = "Junkyard"
+Junkyard.Parent = Main
+Junkyard.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Junkyard.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Junkyard.Position = UDim2.new(0, 0, 0.171745151, 0)
+Junkyard.Size = UDim2.new(0, 200, 0, 50)
+Junkyard.Font = Enum.Font.SciFi
+Junkyard.Text = "Junkhard"
+Junkyard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Junkyard.TextSize = 14.000
+Junkyard.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4028.9541, 1063.0835, 1479.96289)
 end)
