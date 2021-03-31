@@ -6,7 +6,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
-local Bunker&Ship = Instance.new("TextButton")
+local BunkerShip = Instance.new("TextButton")
 local OmniCity = Instance.new("TextButton")
 local Forest = Instance.new("TextButton")
 local Temple = Instance.new("TextButton")
@@ -34,17 +34,17 @@ Title.Text = "Ben 10 Universal Ensemble Teleport GUI | Made by Babiru"
 Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title.TextSize = 14.000
 
-Bunker&Ship.Name = "Bunker&Ship"
-Bunker&Ship.Parent = Main
-Bunker&Ship.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
-Bunker&Ship.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Bunker&Ship.Position = UDim2.new(0, 0, 0.448753506, 0)
-Bunker&Ship.Size = UDim2.new(0, 200, 0, 50)
-Bunker&Ship.Font = Enum.Font.SciFi
-Bunker&Ship.Text = "Bunker&Ship"
-Bunker&Ship.TextColor3 = Color3.fromRGB(0, 0, 0)
-Bunker&Ship.TextSize = 14.000
-Bunker&Ship.MouseButton1Down:connect(function()
+BunkerShip.Name = "BunkerShip"
+BunkerShip.Parent = Main
+BunkerShip.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+BunkerShip.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BunkerShip.Position = UDim2.new(0, 0, 0.448753506, 0)
+BunkerShip.Size = UDim2.new(0, 200, 0, 50)
+BunkerShip.Font = Enum.Font.SciFi
+BunkerShip.Text = "BunkerShip"
+BunkerShip.TextColor3 = Color3.fromRGB(0, 0, 0)
+BunkerShip.TextSize = 14.000
+BunkerShip.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(592.218506, 868.113342, 2970.13086)
 end)
 
