@@ -1,0 +1,119 @@
+-- GUI MADE BY BABIRU
+-- BEN 10 UNIVERSAL ENSEMBLE
+
+-- This is my first gui EVER as I'm still learning shit, so don't roast me about how bad it is lmao (credits to "Garfield The Cat" for providing easy access to teleport script via his cords finder, link to his thread in description)
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Bunker = Instance.new("TextButton")
+local OmniCity = Instance.new("TextButton")
+local Forest = Instance.new("TextButton")
+local Temple = Instance.new("TextButton")
+local SpaceStation = Instance.new("TextButton")
+local Junkhard = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Main.Position = UDim2.new(0.150497511, 0, 0.28072837, 0)
+Main.Size = UDim2.new(0, 570, 0, 361)
+main.Active = true
+main.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+Title.Size = UDim2.new(0, 570, 0, 45)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Ben 10 Universal Ensemble Teleport GUI | Made by Babiru"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+Bunker.Name = "Bunker"
+Bunker.Parent = Main
+Bunker.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Bunker.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Bunker.Position = UDim2.new(0, 0, 0.448753506, 0)
+Bunker.Size = UDim2.new(0, 200, 0, 50)
+Bunker.Font = Enum.Font.SciFi
+Bunker.Text = "Bunker"
+Bunker.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bunker.TextSize = 14.000
+Bunker.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+OmniCity.Name = "OmniCity"
+OmniCity.Parent = Main
+OmniCity.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+OmniCity.BorderColor3 = Color3.fromRGB(255, 255, 255)
+OmniCity.Position = UDim2.new(0.649122834, 0, 0.725761771, 0)
+OmniCity.Size = UDim2.new(0, 200, 0, 50)
+OmniCity.Font = Enum.Font.SciFi
+OmniCity.Text = "Omni City"
+OmniCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+OmniCity.TextSize = 14.000
+OmniCity.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Forest.Name = "Forest"
+Forest.Parent = Main
+Forest.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Forest.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Forest.Position = UDim2.new(0, 0, 0.725761831, 0)
+Forest.Size = UDim2.new(0, 200, 0, 50)
+Forest.Font = Enum.Font.SciFi
+Forest.Text = "Forest"
+Forest.TextColor3 = Color3.fromRGB(0, 0, 0)
+Forest.TextSize = 14.000
+Forest.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Temple.Name = "Temple"
+Temple.Parent = Main
+Temple.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Temple.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Temple.Position = UDim2.new(0.649122834, 0, 0.171745151, 0)
+Temple.Size = UDim2.new(0, 200, 0, 50)
+Temple.Font = Enum.Font.SciFi
+Temple.Text = "Temple"
+Temple.TextColor3 = Color3.fromRGB(0, 0, 0)
+Temple.TextSize = 14.000
+Temple.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+SpaceStation.Name = "SpaceStation"
+SpaceStation.Parent = Main
+SpaceStation.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+SpaceStation.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SpaceStation.Position = UDim2.new(0.649122775, 0, 0.448753476, 0)
+SpaceStation.Size = UDim2.new(0, 200, 0, 50)
+SpaceStation.Font = Enum.Font.SciFi
+SpaceStation.Text = "Space Station"
+SpaceStation.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpaceStation.TextSize = 14.000
+SpaceStation.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Junkhard.Name = "Junkhard"
+Junkhard.Parent = Main
+Junkhard.BackgroundColor3 = Color3.fromRGB(123, 255, 167)
+Junkhard.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Junkhard.Position = UDim2.new(0, 0, 0.171745151, 0)
+Junkhard.Size = UDim2.new(0, 200, 0, 50)
+Junkhard.Font = Enum.Font.SciFi
+Junkhard.Text = "Junkhard"
+Junkhard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Junkhard.TextSize = 14.000
+Junkhard.MouseButton1Down:connect(function()
+	Scripthere
+end)
