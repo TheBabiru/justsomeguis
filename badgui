@@ -22,8 +22,8 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 Main.Position = UDim2.new(0.150497511, 0, 0.28072837, 0)
 Main.Size = UDim2.new(0, 570, 0, 361)
-main.Active = true
-main.Draggable = true
+Main.Active = true
+Main.Draggable = true
 
 Title.Name = "Title"
 Title.Parent = Main
